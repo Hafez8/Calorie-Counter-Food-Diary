@@ -1,0 +1,54 @@
+body {
+    background-color: #6CBB3C;
+    color: #fff;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.card-header {
+    background-color: #495057;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group input {
+    padding-left: 40px;
+}
+
+.form-group .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #495057;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+.separated-text {
+    margin-top: 20px;
+    text-align: center;
+}
