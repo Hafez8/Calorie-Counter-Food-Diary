@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   
     function searchFoodNutrition(foodName) {
-      const apiKey = "nFmYlTuIfvQsxCOgTerJ2QudvctZpEcLNT70oCDi"; 
+      const apiKey = "your_api_key"; 
       const apiUrl = `https://api.api-ninjas.com/v1/nutrition?query=${encodeURIComponent(foodName)}`;
   
       fetch(apiUrl, {
